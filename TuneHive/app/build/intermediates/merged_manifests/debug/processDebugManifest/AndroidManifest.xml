@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.TuneHive" >
         <activity
+            android:name="com.example.tunehive.ui.music.MusicActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.tunehive.ui.auth.AuthActivity"
             android:exported="false"
             android:label="@string/title_activity_main" />
